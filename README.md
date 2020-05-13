@@ -1,9 +1,14 @@
-# PBChance
-PBChance Component for LiveSplit
+# WRChance
+WR Chance will be a module for LiveSplit.  The build is a modified version of SethBling's PBChance, which can be found at https://github.com/SethBling/PBChance
 
 ## What it is:
 
-PBChance is a LiveSplit component that displays the chance of obtaining a PB on your current run. Whenever you reset or split, it runs 10,000 simulations by randomly drawing the remaining splits from your splits in previous attempts, and computes how many of those would result in a PB.
+WRChance is a LiveSplit component that tracks your previous performances for your splits.  When you give it a target time, it tells you the odds that you will achieve this time, based off of your previous attempts.  It will display two different odds:
+
+Performance Odds: purely based off of your previous attempts.
+Real Odds: based off of your previous attempts as well as the likelihood that you will reset the run in the current and future splits.
+
+## Everything below this is a work in progress
 
 ## Installation:
 
