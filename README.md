@@ -6,6 +6,7 @@ WR Chance will be a module for LiveSplit.  The build is a modified version of Se
 WRChance is a LiveSplit component that tracks your previous performances for your splits.  When you give it a target time, it tells you the odds that you will achieve this time, based off of your previous attempts.  It will display two different odds:
 
 Performance Odds: purely based off of your previous attempts.
+
 Real Odds: based off of your previous attempts as well as the likelihood that you will reset the run in the current and future splits.
 
 ## Everything below this is a work in progress
